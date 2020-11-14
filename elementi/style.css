@@ -1,6 +1,7 @@
 /*generale*/
 body{
   font-family: 'Montserrat';
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar{
@@ -57,7 +58,7 @@ a{
 
 /*colori*/
 .transparent{
-  background-color: transparent;
+  background-color: transparent!important;
 }
 
 /*classic menu*/
@@ -197,7 +198,8 @@ a{
 /*cover with menu*/
 .menu--transparent{
   z-index: 2;
-  background-color: transparent;
+  background-color: transparent!important;
+  color: #EEEEEE;
 }
 
 /*cards*/
