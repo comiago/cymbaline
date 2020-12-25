@@ -1,0 +1,31 @@
+@import "utils";
+
+/*footer*/
+.footer{
+  background-color: $black;
+  color: $white;
+  text-align: center;
+}
+
+.footerSocial{
+  display: inline-block;
+  width: 100%;
+  margin: 2% auto;
+}
+
+.socialItem{
+  margin: 0 1%;
+}
+
+.socialItem img{
+  width: 30px;
+}
+
+.socialItem:hover img{
+  width: 35px;
+}
+
+.footerCopyright{
+  padding: 0.5%;
+  background-color: $black / 1.5;
+}

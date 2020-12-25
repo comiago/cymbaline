@@ -1,0 +1,46 @@
+/*primary palette*/
+/*spazi*/
+.frm {
+  margin: 0;
+  padding: 0;
+}
+
+.noPad {
+  padding: 0;
+}
+
+.pad {
+  padding: 10px;
+}
+
+.noMrg {
+  margin: 0;
+}
+
+.mrg {
+  margin: 10px;
+}
+
+.center {
+  padding: 0 10%;
+}
+
+/*bordi*/
+.brd {
+  border: solid 1px #707070;
+}
+
+/*colori*/
+.transparent {
+  background-color: transparent !important;
+}
+
+.dark {
+  background-color: #333333 !important;
+  color: #EEEEEE !important;
+}
+
+.light {
+  background-color: #EEEEEE !important;
+  color: #333333 !important;
+}

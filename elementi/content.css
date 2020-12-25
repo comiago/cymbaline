@@ -1,0 +1,93 @@
+/*primary palette*/
+/*spazi*/
+.frm {
+  margin: 0;
+  padding: 0;
+}
+
+.noPad {
+  padding: 0;
+}
+
+.pad {
+  padding: 10px;
+}
+
+.noMrg {
+  margin: 0;
+}
+
+.mrg {
+  margin: 10px;
+}
+
+.center {
+  padding: 0 10%;
+}
+
+/*bordi*/
+.brd {
+  border: solid 1px #707070;
+}
+
+/*colori*/
+.transparent {
+  background-color: transparent !important;
+}
+
+.dark {
+  background-color: #333333 !important;
+  color: #EEEEEE !important;
+}
+
+.light {
+  background-color: #EEEEEE !important;
+  color: #333333 !important;
+}
+
+/*cards*/
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(33% - 1%);
+  text-align: center;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  margin: 1% 0;
+  padding: 2% 2%;
+  color: #333333;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.cardIcon {
+  max-width: 50%;
+}
+
+.card:hover {
+  background-color: #333333;
+  color: #EEEEEE;
+}
+
+/*section*/
+.section {
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  transition: 1s;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionText {
+  position: absolute;
+  text-align: center !important;
+}

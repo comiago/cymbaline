@@ -1,0 +1,125 @@
+/*primary palette*/
+/*spazi*/
+.frm {
+  margin: 0;
+  padding: 0;
+}
+
+.noPad {
+  padding: 0;
+}
+
+.pad {
+  padding: 10px;
+}
+
+.noMrg {
+  margin: 0;
+}
+
+.mrg {
+  margin: 10px;
+}
+
+.center {
+  padding: 0 10%;
+}
+
+/*bordi*/
+.brd {
+  border: solid 1px #707070;
+}
+
+/*colori*/
+.transparent {
+  background-color: transparent !important;
+}
+
+.dark {
+  background-color: #333333 !important;
+  color: #EEEEEE !important;
+}
+
+.light {
+  background-color: #EEEEEE !important;
+  color: #333333 !important;
+}
+
+/*classic menu*/
+.menu {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+.menuIcon {
+  display: block;
+}
+
+.listMenu {
+  position: absolute;
+  top: -100%;
+  right: -100%;
+  height: 100vh;
+  background-color: #333333;
+  width: 100%;
+  z-index: 0;
+  padding-top: 20%;
+  transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  border-radius: 100%;
+  opacity: 0;
+}
+
+.mylogo .menuIcon {
+  z-index: 10;
+}
+
+.menuItem {
+  display: block;
+}
+
+.is-open {
+  right: 0;
+  top: 0;
+  border-radius: 0;
+  opacity: 1;
+}
+
+/*cards*/
+.cards {
+  flex-direction: column;
+}
+
+.cards {
+  padding: 5%;
+}
+
+.card {
+  width: 100%;
+  padding: 0 5% 10% 5%;
+  margin: 5% 0;
+}
+
+.cardIcon {
+  max-width: 30%;
+  margin-top: 15%;
+}
+
+/*footer*/
+.footerSocial {
+  display: inline-block;
+  width: 100%;
+  margin: 4% auto;
+}
+
+.socialItem {
+  margin: 0 2%;
+}
+
+.socialItem img {
+  width: 20px;
+}
+
+.socialItem:hover img {
+  width: 25px;
+}

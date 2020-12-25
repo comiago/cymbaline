@@ -1,0 +1,142 @@
+@import "utils";
+
+/*classic menu*/
+.menu{
+  background-color: $black;
+  width: 100%;
+  position: fixed;
+}
+
+.logo{
+  color: $white;
+  float: left;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.listMenu{
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.menuItem{
+  display: inline-block;
+}
+
+.linkItem{
+  color: $white;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.menuItem:hover{
+  background: $black / 1.3;
+}
+
+.menuIcon{
+  display: block;
+  float: right;
+  padding: 20px;
+  display: none;
+  position: relative;
+}
+
+.menuIcon span{
+  display: block;
+  height: 3px;
+  width: 30px;
+  background: $white;
+  margin-bottom: 5px;
+}
+
+.change span:nth-of-type(1) {
+  -webkit-transform: rotate(-45deg) translate(-4px, 10px) ;
+  transform: rotate(-45deg) translate(-4px, 10px) ;
+}
+
+.change span:nth-of-type(2) {
+  opacity: 0;
+}
+
+.change span:nth-of-type(3) {
+  -webkit-transform: rotate(45deg) translate(-1px, -8px) ;
+  transform: rotate(45deg) translate(-1px, -8px) ;
+}
+
+.dropdownMenu{
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown:hover ul{
+  display: block;
+  background-color: $black / 1.5;
+  position: absolute;
+  width: 100%;
+}
+
+.dropdownMenuItem:hover{
+  background-color: $black / 1.3;
+}
+
+/*classic cover*/
+.cover{
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  transition: 1s;
+  box-sizing: border-box;
+  background-image: url("https://source.unsplash.com/category/buildings");
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.coverFilter{
+  background: $black / 3;
+  width:100%;
+  height:100%;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.5;
+}
+
+.coverCaption{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.coverCaptionCopy{
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  color: $white;
+}
+
+.coverCaptionCopy h1{
+  font-size: 200%;
+}
+
+.coverCaptionCopy a{
+  text-decoration: none;
+}
+
+/*cover with menu*/
+.menu--transparent{
+  z-index: 2;
+  background-color: transparent!important;
+  color: $white;
+}
